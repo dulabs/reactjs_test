@@ -1,0 +1,65 @@
+    body {
+        background-image: url('../images/mountain.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 80px;
+    }
+
+    #tweets-wrapper{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .tweet-box {
+        box-shadow: 0 0 0 10px rgba(255,255,255,0.3);
+        margin-bottom: 40px;
+        background-color: #fff;
+    }
+
+    .tweet-box p {
+        text-align: right;
+        padding: 5px 10px;
+    }
+
+    .tweet-box .form-group{
+        margin: 0;
+    }
+
+    .tweet-box input{
+        border: 0;
+        border-radius: 0;
+    }
+
+    .tweet-status {
+        padding: 20px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        background-color: #fff;
+        box-shadow: 0 1px 5px 1px rgba(0,0,0,0.3);
+    }
+
+    .tweet-status .tweet-head {
+        margin-bottom: 10px;
+    }
+
+    .tweet-status .tweet-head img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .tweet-status .content {
+        cursor: hand;
+    }
+
+    .tweet-status p {
+        padding: 10px 0;
+    }
+
+    .modal-body {
+        padding: 40px 20px;
+    }
+
+    .modal-body p.status-text {
+        font-size: 220%;
+    }
